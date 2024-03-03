@@ -1,0 +1,185 @@
+.aboutUS {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+
+  color: #ffffff;
+  padding: 0px 0px 50px 0px;
+}
+.aboutUS h2 {
+  color: azure;
+}
+.outerBackground {
+  background-image: url(https://zeptosystems.com/wp-content/uploads/2018/05/services.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.innerSection {
+  background-color: #000000;
+  opacity: 0.9;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.aboutSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  align-items: center;
+  flex-wrap: wrap;
+}
+.aboutSection .leftSection {
+  flex: 0.7;
+  border-right: 1px solid white;
+}
+.leftSection p {
+  font-size: 15px;
+  margin: 0px 0px 20px;
+  margin-right: 20px;
+}
+.aboutSection .rightSection {
+  flex: 0.3;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+/* GOALS */
+.video {
+  position: relative;
+  display: flex;
+
+  width: 100%;
+  height: 100%;
+}
+.myVideo {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 100%;
+}
+.myVideo iframe {
+  width: 100%;
+  height: 170px;
+}
+.aboutWhySection {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+.K2ptechBack {
+  margin-top: 4%;
+  background-color: rgb(238, 238, 238);
+}
+.leftSection {
+  flex: 0.3;
+  align-content: flex-start;
+  margin-right: 8%;
+}
+.rightSectionList {
+  flex: 1;
+  width: 100%;
+}
+.rightSectionList ul {
+  width: 100%;
+}
+.whyK2ptech {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+
+  color: #ffffff;
+  padding: 0px 0px 50px 0px;
+  font-style: inherit;
+  font-weight: inherit;
+}
+.staticBackground {
+  background-image: url(https://zeptosystems.com/wp-content/uploads/2019/03/it-photo.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.backInnerSection {
+  background-color: #ebe6e6;
+  opacity: 0.9;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.aboutSectionCard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.aboutSectionCard .myCard {
+  width: 31%;
+}
+.myCard {
+  box-shadow: 0 -1px 15px 0 rgb(200 219 239 / 70%);
+  border-radius: 6px;
+  padding: 2%;
+  color: #000000;
+  background-color: #ffffff59;
+  margin: 1%;
+}
+.cardIcon {
+  margin: 10px;
+}
+@media screen and (max-width: 991px) {
+  .aboutSection {
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutSection .leftSection {
+    flex: 1;
+    border-right: none;
+  }
+  .aboutSection .rightSection {
+    flex: 1;
+  }
+  .leftSection p {
+    font-size: 15px;
+
+    margin-right: 0px;
+  }
+  .video iframe {
+    height: 360px;
+  }
+  .aboutWhySection {
+    flex-direction: column;
+    align-content: unset;
+    align-items: unset;
+    margin-top: 35%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .video iframe {
+    height: 260px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .video iframe {
+    height: 160px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .aboutSectionCard .myCard {
+    width: 48%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .aboutSectionCard .myCard {
+    width: 100%;
+  }
+}
+.divider {
+  background-color: #ff248a;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 52%;
+}
+.myButton {
+  background-color: #ff248a;
+  border-radius: 6px;
+  color: #fff;
+  padding: 6px 10px;
+}

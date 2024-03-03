@@ -1,0 +1,47 @@
+/* Top Header */
+
+.affix {
+  top: 0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+
+.affix + .container-fluid {
+  padding-top: 70px;
+}
+/* Main header */
+.mainHeader {
+  background-color: #15407f;
+  color: #fff;
+  z-index: 999;
+}
+.navbar-brand h3 {
+  color: #fff;
+}
+.loginbtn {
+  margin-left: 20px;
+  text-decoration: none;
+}
+.loginbtn:hover {
+  text-decoration: none;
+}
+.loginbtn:active {
+  border: none;
+  text-decoration: none;
+  border-color: white;
+}
+.cartItem {
+  color: #fff;
+}
+.MuiIconButton-root {
+  color: #fff;
+}
+.leftNumber {
+  color: #15407f;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.form-group {
+  margin-bottom: 0rem;
+}

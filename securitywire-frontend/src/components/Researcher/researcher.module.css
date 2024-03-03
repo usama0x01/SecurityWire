@@ -1,0 +1,35 @@
+.publicProgramsList {
+  width: 75%;
+  padding: 30px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border: 1px #1976d2 solid;
+  background: #ebebec;
+  transition: all 0.5s ease-in-out;
+}
+/* .publicProgramsList:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+} */
+
+.linksContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.linksItem {
+  background: #757377;
+  color: white;
+  width: auto;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+}
+.enrolledSticker {
+  display: inline-block;
+  background: green;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: right;
+}
